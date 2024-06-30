@@ -1,0 +1,57 @@
+GRBL Setting
+$0 = 10 (step pulse, usec)
+$1 = 25 (step idle delay, msec)
+$2 = 0 (step port invert mask:00000000)
+$3 = 0 (dir port invert mask:00000000)
+$4 = 0 (step enable invert, bool)
+$5 = 0 (limit pins invert, bool)
+$6 = 0 (probe pin invert, bool)
+$10 = 3 (status report mask:00000011)
+$11 = 0.010 (junction deviation, mm)
+$12 = 0.010 (arc tolerance, mm)
+$13 = 0 (report inches, bool)
+$20 = 0 (soft limits, bool)
+$21 = 0 (hard limits, bool)
+$22 = 0 (homing cycle, bool)
+$23 = 0 (homing dir invert mask:00000000)
+$24 = 25.000 (homing feed, mm/min)
+$25 = 500.000 (homing seek, mm/min)
+$26 = 250 (homing debounce, msec)
+$27 = 1.000 (homing pull-off, mm)
+$100 = 80.000 (x, step/mm)
+$101 = 80.000 (y, step/mm)
+$102 = 80.000 (z, step/mm)
+$110 = 50000.000 (x max rate, mm/min)
+$111 = 50000.000 (y max rate, mm/min)
+$112 = 50000.000 (z max rate, mm/min)
+$120 = 5000.000 (x accel, mm/sec^2)
+$121 = 5000.000 (y accel, mm/sec^2)
+$122 = 30.000 (z accel, mm/sec^2)
+$130 = 310.000 (x max travel, mm)
+$131 = 450.000 (y max travel, mm)
+$132 = 200.000 (z max travel, mm)
+G-code sample used for drawing 
+M5
+G90
+G21
+G1 F1000
+G1  X4.4062 Y3.8098
+M3 S90
+G4 P1
+G1 F500.000000
+G2 X4.3644 Y3.7908 I-0.2404 J0.4725
+G2 X4.3295 Y3.7788 I-0.1282 J0.3174
+G1  X4.2942 Y3.771 
+G1  X4.2651 Y3.7687 
+G1  X4.2299 Y3.7759 
+G1  X4.214 Y3.7904 
+G1  X4.2084 Y3.8138 
+G1  X4.2147 Y3.8733 
+G2 X4.2232 Y3.9127 I1.1458 J-0.2248
+G2 X4.2705 Y4.1136 I29.9331 J-6.9521
+G3 X4.3174 Y4.3156 I-10.5716 J2.5617
+G3 X4.3512 Y4.4764 I-6.6685 J1.4819
+G3 X4.3593 Y4.5176 I-2.1296 J0.442
+G3 X4.3837 Y4.65 I-22.0159 J4.1278
+G3 X4.3961 Y4.7143 I-32.9017 J6.346
+G3 X4.4031 Y4.7516 I-11.0179 J2.1028
