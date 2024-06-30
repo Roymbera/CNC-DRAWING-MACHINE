@@ -49,12 +49,20 @@ CNC machining offers some drawbacks, such as cost, size limitations and the pote
 1.7 Advantages
 
 This machine can make jobs with high accuracy and with precision than any other manual machine.
+
 	It can work for 24 hours a day.
+
 	The parts produced by the CNC machine have the same dimension. There is no variation in the parts manufactured in the same machine.
-	There is no need for highly skilled workers to operate this machine. A semi-skilled worker can run the machine more accurately and precisely.
+
+	There is no need for highly skilled workers to operate this machine. A semi-skilled worker can run the machine more accurately and precisely
+
 	Operators can easily make changes and improvements and with that reduce time.
+
 	This machine can make complex designs with high accuracy in minimum time.
-	With modern design software, the designer simulates the idea. In addition, there is no requirement to make a prototype or model which saves time and money.
+
+	With modern design software, the designer simulates the idea. In addition, there
+is no requirement to make a prototype or model which saves time and money.
+
 	There are fewer workers required to operate a machine, which saves the labor cost.
 
 
